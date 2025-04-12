@@ -9,6 +9,8 @@ response = client.run_instances(
     MinCount=1,
     MaxCount=1
 )
-
+             
 print("EC2 Instance launched!")
 print(response['Instances'][0]['InstanceId'])
+       
+       #Created a branch and edited in iti
